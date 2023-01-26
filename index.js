@@ -62,6 +62,52 @@ function printDivide(a,b){
 printDivide(5,10);
 
 
+function isDivisibleBy(a,b){
+    let divisibleBy = a % b;
+    if ( divisibleBy=== 0){
+        console.log(a + " is not divisible by " + b );
+    }
+    else if( divisibleBy === 1 ){
+        console.log ( a + " is divisible by " + b);
+    }
+}
+// 5 % 2 = 1
+// 4 % 2 = 2
+isDivisibleBy(5,2);
+isDivisibleBy(4,2);
+
+
+
+function isEven (a){
+    let even = a; 
+   if ( a % 2 === 0){ 
+    console.log ( a + " is  even ");
+}
+  else if ( a % 2 === 1){
+    console.log (a + " is not even");
+   }
+
+  else if ( a === 0){
+    console.log ( a + " is not even");
+  }  
+  else{
+    console.log (a + " asd is not a number");
+  }
+   
+   
+}
+
+isEven(5);// 5 is not even 
+isEven(2);// 2 is even 
+isEven("asd");//asd is not a number 
+isEven(0);//0 is not even
+
+
+
+
+
+
+
 
 
 
