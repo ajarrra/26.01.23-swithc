@@ -11,3 +11,22 @@ function sayBye (){
 sayBye();
 sayBye();
 sayBye();
+
+function sayHelloTo(name){ // name это имя переменной
+    console.log("Hello " + name);// 
+}
+sayHelloTo("Ajara");// Ajara сами пишем и оно выводится
+sayHelloTo("Elya"); 
+
+function myCity(city){
+    console.log("I was born in " + city);
+}
+myCity("Bishkek");
+myCity("Karakol");
+
+function myFriend(name){
+    console.log("My friend is " + name);
+}
+myFriend ("Nestna");
+myFriend ("Aiday");
+myFriend("Anton");
