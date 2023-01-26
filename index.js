@@ -9,3 +9,5 @@ function sayBye (){
     console.log("Bye");
 }
 sayBye();
+sayBye();
+sayBye();
